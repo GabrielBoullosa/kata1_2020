@@ -12,7 +12,7 @@ public class Person {
     private final static int h_per_d = 24;
     private final static double d_per_y = 365.5;
     private final static double ms_per_y = ms_per_s *
-            s_per_m * m_per_h * h_per_d;
+            s_per_m * m_per_h * h_per_d * d_per_y;
             
     
     public Person(String name, Date birthday) {
